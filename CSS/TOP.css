@@ -56,6 +56,11 @@ h1{
     font-size: 43px;
 }
 
+.DL img{
+    width: 500px;
+    text-align: right;
+}
+
 .AM{
     min-height: 80vh;
     display: flex;
@@ -98,6 +103,7 @@ ul li{
         justify-content: center;
     }
 }
+
 footer{
     text-align: center;
 }
