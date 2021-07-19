@@ -8,6 +8,8 @@ h1{
 
 .Profile{
     min-height: 100vh;
+    width: 100%;
+    display: flex;
 }
 
 .Profile h2{
@@ -17,8 +19,34 @@ h1{
 .Profile img{
     border-radius: 50%;
     border: 9px solid #000;
-    height: 200px;
+    height: 450px;
+    margin-top: 150px;
+    margin-left: -100px;
 }
+
+.PC{
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+@media screen and (max-width: 850px){
+    .Profile{
+        display: block;
+        width: 100%;
+    }
+    .Profile img{
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .PC{
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
 
 .Skills{
     min-height: 100vh;
