@@ -10,10 +10,32 @@ h1{
     min-height: 100vh;
 }
 
+.Profile h2{
+    font-size: 43px;
+}
+
+.Profile img{
+    border-radius: 50%;
+    border: 9px solid #000;
+    height: 200px;
+}
+
 .Skills{
     min-height: 100vh;
 }
 
+.Skills h2{
+    font-size: 43px;
+}
+
 .AM{
     min-height: 100vh;
+}
+
+.AM h3{
+    font-size: 43px;
+}
+
+.AM h5{
+    font-size: 30px
 }
