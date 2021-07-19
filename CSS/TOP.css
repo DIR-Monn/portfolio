@@ -57,7 +57,8 @@ h1{
 }
 
 .AM{
-    min-height: 100vh;
+    min-height: 80vh;
+    display: flex;
 }
 
 .AM h3{
@@ -65,5 +66,35 @@ h1{
 }
 
 .AM h5{
-    font-size: 30px
+    font-size: 30px;
+    margin-bottom: -10px;
+}
+
+.WD{
+    margin-top: 80px;
+    margin-left: -110px;
+}
+
+ul li{
+    font-size: 20px;
+}
+
+.PGP{
+    margin-top: 80px;
+    margin-left: 300px;
+}
+
+@media screen and (max-width: 1000px){
+    .AM{
+        display: block;
+        width: 100%;
+    }
+    .WD{
+        margin: 0px;
+    }
+    .PGP{
+        margin: 0px;
+        align-items: center;
+        justify-content: center;
+    }
 }
