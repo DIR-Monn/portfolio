@@ -128,7 +128,7 @@ ul li{
     margin-left: 300px;
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1020px){
     .AM{
         display: block;
         width: 100%;
