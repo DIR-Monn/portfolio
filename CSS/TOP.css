@@ -143,6 +143,10 @@ ul li{
     }
 }
 
+.Tyui{
+    text-align: right;
+}
+
 footer{
     text-align: center;
     background-color: #000;
