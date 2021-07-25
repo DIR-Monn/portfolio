@@ -7,10 +7,10 @@ img{
 }
 
 p{
-    margin-left: 50px;
-    margin-top: 30px;
-    margin-bottom: 100px;
+    text-align: center;
+    font-size: 25px;
 }
+
 
 .collection img{
     display:flex;
@@ -37,6 +37,10 @@ p{
         flex-direction: column;
         align-items: center;
     }
+}
+
+.TL{
+    text-align: right;
 }
 
 footer{

@@ -59,6 +59,10 @@ h2{
     }
 }
 
+.TL{
+    text-align: right;
+}
+
 footer{
     text-align: center;
     background-color: #000;
