@@ -57,7 +57,12 @@ h1{
 }
 
 .DL img{
+    margin-top: 80px;
     width: 500px;
+    text-align: right;
+}
+
+.imglink{
     text-align: right;
 }
 
