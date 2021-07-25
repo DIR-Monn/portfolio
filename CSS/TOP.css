@@ -20,6 +20,15 @@ h1{
     font-size: 43px;
 }
 
+.Profile h4{
+    font-size: 25px;
+}
+
+.Profile h5{
+    margin-top: -30px;
+    font-size: 23px;
+}
+
 .Profile img{
     border-radius: 50%;
     border: 9px solid #000;

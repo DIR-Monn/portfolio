@@ -2,6 +2,10 @@
     background-color: rgb(150, 150, 150);
 }
 
+img{
+    border: 9px solid #fff;
+}
+
 .title{
     font-size: 25px;
 }
@@ -25,4 +29,11 @@
 }
 .main ul{
     margin-top: 50px;
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
 }

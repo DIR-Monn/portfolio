@@ -38,6 +38,10 @@ h2{
     margin: 0 50px 50px 0;
 }
 
+img{
+    border: 9px solid #fff;
+}
+
 .D{
     display: flex;
     justify-content: space-evenly;
@@ -49,4 +53,11 @@ h2{
         flex-direction: column;
         align-items: center;
     }
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
 }

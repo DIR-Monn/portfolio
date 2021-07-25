@@ -2,6 +2,10 @@
     background-color: rgb(150, 150, 150);
 }
 
+img{
+    border: 9px solid #fff;
+}
+
 p{
     margin-left: 50px;
     margin-top: 30px;
@@ -33,4 +37,11 @@ p{
         flex-direction: column;
         align-items: center;
     }
+}
+
+footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 30px;
 }
