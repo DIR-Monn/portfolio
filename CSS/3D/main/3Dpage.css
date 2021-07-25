@@ -18,6 +18,10 @@ p{
     margin: 0 50px 50px 0;
 }
 
+.collection img:hover{
+    opacity: 0.5;
+}
+
 .C1, .C2, .C3{
     display: flex;
     justify-content: space-evenly;
