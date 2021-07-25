@@ -1,0 +1,49 @@
+.title{
+    font-size: 25px;
+}
+
+.introduction{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main_img{
+    text-align: center;
+}
+
+.main_img img{
+    height: 100vh;
+}
+
+.main h5{
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+.CP h1{
+    margin-top: 100px;
+}
+
+.CP img{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+    width: 330px;
+    margin: 0 50px 50px 0;
+}
+
+.page1, .page2, .page3, .page4, .page5, .page6, .page7, .page8{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 850px){
+    .page1, .page2, .page3, .page4, .page5, .page6, .page7, .page8{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
