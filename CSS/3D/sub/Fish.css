@@ -1,0 +1,52 @@
+*{
+    background-color: rgb(150, 150, 150);
+}
+
+.title{
+    font-size: 25px;
+}
+
+.introduction{
+    text-align: center;
+    font-size: 25px;
+}
+
+.main_img{
+    text-align: center;
+}
+
+.main_img img{
+    width: 80vh;
+}
+
+.main h5{
+    font-size: 30px;
+    margin-bottom: -20px;
+}
+
+h2{
+    margin-top: 100px;
+}
+
+.D img{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+    width: 330px;
+    margin: 0 50px 50px 0;
+}
+
+.D{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 850px){
+    .D{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
