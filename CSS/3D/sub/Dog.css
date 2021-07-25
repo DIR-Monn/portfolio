@@ -1,0 +1,22 @@
+.title{
+    font-size: 25px;
+}
+
+.introduction{
+    margin-top: -30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.main_img{
+    text-align: center;
+}
+
+.main_img img{
+    width: 80vh;
+}
+
+.main h5{
+    font-size: 30px;
+    margin-bottom: -20px;
+}
