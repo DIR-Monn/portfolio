@@ -1,0 +1,28 @@
+p{
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+.collection img{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+    padding: 20px;
+    width: 330px;
+    margin: 0 50px 50px 0;
+}
+
+.C1, .C2, .C3{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+@media screen and (max-width: 850px){
+    .C1, .C2, .C3{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
